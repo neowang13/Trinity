@@ -1,10 +1,10 @@
 $('#popup').click(function(e) {
  console.log('button clicked');
- $('.pop-wrapper').show();
+ $('.pop-wrapper').fadeIn();
 }); 
 
 
 $('#closed').click(function(e) {
  console.log('button clicked');
- $('.pop-wrapper').hide();
+ $('.pop-wrapper').fadeOut();
 }); 
